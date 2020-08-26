@@ -31,7 +31,9 @@ artificial  neural network
 we used the scikit-learn library to implement the project
 
 
-Result
+# Result
+
+![](images/GNB-RF.PNG )
 
 
 
