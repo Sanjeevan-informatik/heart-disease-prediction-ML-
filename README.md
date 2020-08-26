@@ -33,7 +33,15 @@ we used the scikit-learn library to implement the project
 
 # Result
 
-![](images/GNB-RF.PNG )
+![](images/knn-svm.PNG)
+
+![](images/SVM-GNB.PNG)
+
+![](images/GNB-RF.PNG)
+
+![](images/NN-RF.PNG )
+
+![](images/5-classifier.PNG)
 
 
 
