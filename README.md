@@ -33,15 +33,12 @@ we used the scikit-learn library to implement the project
 
 # Result
 
- <table style="width:100%">
-  <tr>
-    <td> ![](images/knn-svm.PNG) </td>
-    <td> ![](images/SVM-GNB.PNG) </td>
-  </tr>
-  <tr>
-    <td> ![](images/GNB-RF.PNG) </td>
-    <td> ![](images/NN-RF.PNG ) </td>
-  </tr>
+ ![](images/knn-svm.PNG)
  
-</table> 
+ ![](images/SVM-GNB.PNG)
+ 
+ ![](images/GNB-RF.PNG) 
+ 
+ ![](images/NN-RF.PNG ) 
+
 
