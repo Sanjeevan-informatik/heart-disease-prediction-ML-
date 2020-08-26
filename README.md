@@ -35,13 +35,13 @@ we used the scikit-learn library to implement the project
 
  <table style="width:100%">
   <tr>
-    <th>![](images/knn-svm.PNG)</th>
-    <th>![](images/SVM-GNB.PNG)</th>
+    <td> ![](images/knn-svm.PNG) </td>
+    <td> ![](images/SVM-GNB.PNG) </td>
   </tr>
   <tr>
-    <td>![](images/GNB-RF.PNG)</td>
-    <td>![](images/NN-RF.PNG )</td>
+    <td> ![](images/GNB-RF.PNG) </td>
+    <td> ![](images/NN-RF.PNG ) </td>
   </tr>
  
 </table> 
-![](images/5-classifier.PNG)
+
