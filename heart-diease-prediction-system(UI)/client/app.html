@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- app stlylesheet -->
+	<script src="app.js"></script>
+
+	<title>predicting heart disease machine learning</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+				<div class="row">
+					<div class="booking-form">
+						<form>
+							<div class="col-md-3">
+								
+								<div class="form-group">
+									
+									<input class="form-control" type="text" placeholder="" id="uiage">
+									<span class="form-label">Age</span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								
+								<div class="form-group">
+									
+									<input class="form-control" type="text" placeholder="" id="uisex">
+									<span class="form-label">sex</span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="" id="uitrestbps">
+									<span class="form-label"> resting blood pressure </span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								
+								<div class="form-group">
+
+									<input class="form-control" type="text" placeholder="" id="uichol">
+									<span class="form-label"> serum cholestoral</span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								
+								<div class="form-group">
+
+									<input class="form-control" type="text" placeholder="" id="uifbs">
+									<span class="form-label">fasting blood sugar</span>
+								</div>
+							</div>
+
+							<div class="col-md-3">								
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="" id="uithalach">
+									<span class="form-label">maximum heart rate achieved </span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								
+								<div class="form-group">
+
+									<input class="form-control" type="text" placeholder="" id="uiexang">
+									<span class="form-label">exercise induced angina</span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								
+								<div class="form-group">
+
+									<input class="form-control" type="text" placeholder="" id="uioldpeak">
+									<span class="form-label">ST depression induced by exercise relative to rest</span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								
+								<div class="form-group">
+
+									<input class="form-control" type="text" placeholder="" id="uica">
+									<span class="form-label">number of major vessels (0-3) colored by flourosopy</span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="form-group">
+									<select class="form-control"  id="uirestecg" >
+										<option value="restecg_0" >normal</option>
+										<option value="restecg_1" >having ST-T wave abnormality</option>
+										<option value="restecg_2" >left ventricular hypertrophy </option>
+									</select>
+									<span class="select-arrow"></span>
+									<span class="form-label"> electrocardiographic results </span>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div class="form-group">
+									<select class="form-control" id="uithal" >
+										<option value="thal_0" >normal</option>
+										<option value="thal_1" >fixed defect</option>
+										<option value="thal_2" >reversable defect</option>
+										<option value="thal_3" >reversable defect</option>
+							</select>
+									<span class="select-arrow"></span>
+									<span class="form-label">thal</span>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-btn">
+									<button class="submit-btn" onclick="onClickedheartdieasestatus()" type="button">Heart diease status</button>
+								</div>
+
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
