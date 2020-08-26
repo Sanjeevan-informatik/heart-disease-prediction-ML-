@@ -40,18 +40,21 @@ AUC - ROC curve is a performance measurement for classification problem at vario
 An excellent model has AUC near to the 1 which means it has good measure of separability. A poor model has AUC near to the 0 which means it has worst measure of separability. In fact it means it is reciprocating the result. It is predicting 0s as 1s and 1s as 0s. And when AUC is 0.5, it means model has no class separation capacity whatsoever.
 
 compare the performance of support vector machine vs k-nearest neighbor
+
  ![](images/knn-svm.PNG)
  
  compare the performance of support vector machine vs gaussian naive bayes
+ 
  ![](images/SVM-GNB.PNG)
  
  compare the performance of Naive Bayes classifier vs Random Forest
+ 
  ![](images/GNB-RF.PNG) 
  
  compare the performance of Artificial neural network vs Random Forest
  
  ![](images/NN-RF.PNG) 
 
-compare the performance among 5 different classifiers\n
+compare the performance among 5 different classifiers
 
  ![](images/5-classifier.PNG) 
