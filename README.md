@@ -49,7 +49,9 @@ compare the performance of support vector machine vs k-nearest neighbor
  ![](images/GNB-RF.PNG) 
  
  compare the performance of Artificial neural network vs Random Forest
+ 
  ![](images/NN-RF.PNG) 
 
-compare the performance among 5 different classifiers
+compare the performance among 5 different classifiers\n
+
  ![](images/5-classifier.PNG) 
