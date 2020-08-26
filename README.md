@@ -58,3 +58,9 @@ compare the performance of support vector machine vs k-nearest neighbor
 compare the performance among 5 different classifiers
 
  ![](images/5-classifier.PNG) 
+
+# further work
+
+I developed the graphical user interface to predict the heart disease from the user input with the help of flask framework, the user interface  was developed  by HTML, CSS, jquery, and backend was implemented by python.
+
+ ![](images/UI.PNG) 
