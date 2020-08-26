@@ -33,32 +33,15 @@ we used the scikit-learn library to implement the project
 
 # Result
 
-![](images/knn-svm.PNG)
-
-![](images/SVM-GNB.PNG)
-
-![](images/GNB-RF.PNG)
-
-![](images/NN-RF.PNG )
-
-![](images/5-classifier.PNG)
-
-
-
  <table style="width:100%">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
+    <th>![](images/knn-svm.PNG)</th>
+    <th>![](images/SVM-GNB.PNG)</th>
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
+    <td>![](images/GNB-RF.PNG)</td>
+    <td>![](images/NN-RF.PNG )</td>
   </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
+ 
 </table> 
+![](images/5-classifier.PNG)
